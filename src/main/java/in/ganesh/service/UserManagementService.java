@@ -7,7 +7,7 @@ import in.ganesh.binding.UnlockForm;
 import in.ganesh.binding.UserForm;
 
 public interface UserManagementService {
-	
+	String hi;
 	//login Functionality Method
 	public String login(LoginForm loginForm);
 	
