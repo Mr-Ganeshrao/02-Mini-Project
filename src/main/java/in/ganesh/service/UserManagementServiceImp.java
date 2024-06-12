@@ -26,7 +26,7 @@ import in.ganesh.util.EmailUtils;
 
 @Service
 public class UserManagementServiceImp implements UserManagementService {
-
+	Strign h2;
 	@Autowired
 	private UserAccountReposity UserRepo;
 	@Autowired
