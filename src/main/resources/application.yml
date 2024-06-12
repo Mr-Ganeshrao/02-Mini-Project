@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: 02_mini_peoject
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: sa
+    url: jdbc:h2:mem:testdb
+    username: sa
+
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+    defer-datasource-initialization: true
+  mail:
+    host: smtp.gmail.com  
+    port: 587
+    username: ganeshrao416312@gmail.com
+    password: Grao1999@
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+      
+    

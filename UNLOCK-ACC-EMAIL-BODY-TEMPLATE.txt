@@ -1,0 +1,20 @@
+Hi{FNAME}{LNAME},
+<br/>
+
+Welcome to Our Family, Your registration is almost completed.
+please use below details to unlock your account. <br/>
+
+<br/>
+
+Temporary Password:{TEMP-PWD}<br/>
+<br/>
+
+<a href='http://localhost:4200/unlockAcc?email={EMAIL}'>
+Click Here To Unlock Account</a>
+ <br/>
+ <br/>
+ 
+ 
+ 
+ Thanks & Regards,<br/>
+ R industry.<
